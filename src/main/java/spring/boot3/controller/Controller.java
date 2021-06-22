@@ -16,7 +16,7 @@ public class Controller {
     private ResumeService resume =new ResumeService();
 
     @GetMapping
-    public ResumeService GetResume(){
-        return resume;
+    public Resumes GetResume(){
+        return resume.getResume();
     }
 }
